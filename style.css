@@ -1,1 +1,73 @@
 /* CSS file for google home page */
+.main {
+  text-align: center;
+  padding-top: 8%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}
+
+li a {
+  font-family: arial;
+  font-size: 13px;
+  display: block;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    color: #757575;
+    background-color: #F0F0F0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+input[type=text] {
+  width: 24%;
+  /* box-sizing: border-box; */
+  border: 1px solid #e6e4e2;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('assets/mic.png');
+  background-size: 16px 24px;
+  background-position: right;
+  /* background-position: 10px 10px; */
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 10px;
+  outline: none;
+}
+
+
+button {
+   background-color: #F4F4F4;
+   border: none;
+   border-radius: 2px;
+   color: #757575;
+   padding: 10px 16px;
+   text-align: center;
+   display: inline-block;
+   font-size: 13px;
+}
+
+button:hover {
+  background-color: #F4F4F4;
+  border: .5px solid #757575;;
+  color: black;
+}
